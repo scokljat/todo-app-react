@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  background: #f6d7a7;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 50%;
+  height: 50%;
+  background: #c8e3d4;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+.container input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #87aaaa;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #87aaaa;
+}
+.container input::placeholder {
+  color: #87aaaa;
+}
+.todoForm {
+  margin-bottom: 32px;
+}
+.btn {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: #f6eabe;
+  color: #87aaaa;
+  text-transform: capitalize;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.deleteIcon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.editIcon {
+  color: #fff;
+}
+.todoRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+  background: #87aaaa;
+}
+h1 {
+  margin: 32px 0;
+  color: #87aaaa;
+  font-size: 24px;
+}
