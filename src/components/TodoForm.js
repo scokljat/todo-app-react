@@ -5,6 +5,7 @@ function TodoForm(props) {
   const handleChange = (e) => {
     setInput(e.target.value);
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     props.onSubmit({
